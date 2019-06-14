@@ -3,23 +3,28 @@ Simple page created with next.js framework.
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
 * [Features](#features)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
 * [Status](#status)
 * [Inspiration](#inspiration)
-* [Contact](#contact)
+* [Todo](#todo)
+* [License](#license)
 
 ## General info
 Goal of project is to learn how to use next.js and create simple application in this framework.
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-
 ## Technologies
 * [Next.js](https://nextjs.org/)
 * [React](https://reactjs.org/)
+
+## Features
+* Main page
+* About page
+
+## Screenshots
+![Example screenshot](./img/screenshot.png)
 
 ## Setup
 How to run this project.
@@ -42,16 +47,6 @@ To create production ready codes -
 
 for more commands refer `package.json`
 
-
-## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
 
 ## Status
 Project is in progress.
