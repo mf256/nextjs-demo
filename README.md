@@ -24,7 +24,7 @@ Goal of project is to learn how to use next.js and create simple application in 
 * About page
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./doc/screen1.png)
 
 ## Setup
 How to run this project.
