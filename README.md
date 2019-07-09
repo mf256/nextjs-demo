@@ -20,8 +20,9 @@ Goal of project is to learn how to use next.js and create simple application in 
 * [React](https://reactjs.org/)
 
 ## Features
-* Main page
-* About page
+* Use external API to get bitcoin price
+* Show bitcoin price
+* Change currency
 
 ## Screenshots
 ![Example screenshot](./doc/screen1.png)
@@ -49,13 +50,7 @@ for more commands refer `package.json`
 
 
 ## Status
-Project is in progress.
-
-## Inspiration
-Add here credits. Project inspired by..., based on...
-
-## Todo
-* Finish the project.
+Project is finished.
 
 ## License
 MIT
