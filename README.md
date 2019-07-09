@@ -18,6 +18,7 @@ Goal of project is to learn how to use next.js and create simple application in 
 ## Technologies
 * [Next.js](https://nextjs.org/)
 * [React](https://reactjs.org/)
+* [Bootstrap](https://getbootstrap.com/)
 
 ## Features
 * Use external API to get bitcoin price
