@@ -8,8 +8,6 @@ Simple page created with next.js framework.
 * [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Status](#status)
-* [Inspiration](#inspiration)
-* [Todo](#todo)
 * [License](#license)
 
 ## General info
