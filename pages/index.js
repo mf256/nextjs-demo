@@ -4,8 +4,8 @@ import Prices from '../components/Prices';
 
 const Index = (props) => (
   <Layout>
-  <div class="container">
-    <h3 class="row justify-content-center"> Welcome to demo application! </h3>
+  <div className="container">
+    <h3 className="row justify-content-center"> Welcome to demo application! </h3>
     <br/>
     <Prices bpi={props.bpi}></Prices>
 
