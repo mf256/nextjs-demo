@@ -22,7 +22,7 @@
   "homepage": "https://github.com/mf256/nextjs-demo#readme",
   "dependencies": {
     "isomorphic-unfetch": "^3.1.0",
-    "next": "^9.5.3",
+    "next": "^10.0.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   }
