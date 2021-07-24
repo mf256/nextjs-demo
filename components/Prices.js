@@ -1,34 +1,30 @@
-class Prices extends React.Component {
-    state = {
-      currency: 'USD'
-    }
-  
-    render() {
-  
-      return (
-        <div>
-          <ul className="list-group">
-            <li className="list-group-item">Bitcoin rate for {this.props.bpi[this.state.currency].description}: 
-            <span className="badge badge-primary">{this.props.bpi[this.state.currency].code}</span> 
-            <strong>{this.props.bpi[this.state.currency].rate}</strong>
-          </li>
-          </ul>
-          <br/>
-          <select onChange={e => this.setState({currency: e.target.value})} className="form-control">
-            <option value="USD">USD</option>
-            <option value="GBP">GBP</option>
-            <option value="EUR">EUR</option>
-          </select>
+import React, { useState } from "react";
 
-          <style jsx>{`
-          .badge {
-            margin: 0 0.5em;
-          }
-          `}
-          </style>
-        </div>
-      );
-    }
-  }
-  
-  export default Prices;
+const Prices = (props) => {
+  const [currency, setCurrency] = useState('USD');
+  return (
+    <div>
+      <ul className="list-group">
+        <li className="list-group-item">Bitcoin rate for {props.bpi[currency].description}: 
+        <span className="badge badge-primary">{props.bpi[currency].code}</span> 
+        <strong>{props.bpi[currency].rate}</strong>
+      </li>
+      </ul>
+      <br/>
+      <select onChange={e => setCurrency(e.target.value)} className="form-control">
+        <option value="USD">USD</option>
+        <option value="GBP">GBP</option>
+        <option value="EUR">EUR</option>
+      </select>
+
+      <style jsx>{`
+      .badge {
+        margin: 0 0.5em;
+      }
+      `}
+      </style>
+    </div>
+  );
+}
+
+export default Prices;
